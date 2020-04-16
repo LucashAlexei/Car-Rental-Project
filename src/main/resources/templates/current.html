@@ -1,0 +1,157 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<link type="text/css" rel="stylesheet" th:href="@{/currentCar.css}"/>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${cur.get().getCar_model()}"></title>
+    <link rel="shortcut icon" href="/images/353431-32.png">
+    <link rel="stylesheet" href="/contacts.css" type="text/css">
+    <div class="header-bg">
+        <img class="logo" src="/images/mainlogo-512.png" alt="logo">
+        <div class="header-info"></div>
+
+        <img src="/images/phone.png" alt="phone" class="phone">
+        <div class="info">Contact us: <br>
+            +373 (69) 922 424<br>
+            +373 (69) 873 766
+        </div>
+        <div class="media">
+            <!-- uSocial -->
+            <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+            <div class="uSocial-Share" data-pid="b1c54dfa53ace7fc15acf190b33cae9d" data-type="share" data-options="rect,style1,default,absolute,horizontal,size32,eachCounter0,counter0" data-social="vk,fb,ok,twi" data-mobile="vi,wa,sms"></div>
+            <!-- /uSocial -->
+        </div>
+    </div>
+</head>
+<div class="line">
+    <ul class="menu">
+        <li><a th:href="@{/onIndex}">Main Page</a></li>
+        <li><a th:href="@{/onCarfleet}">Car Fleet</a></li>
+        <li><a th:href="@{/onConditions}">Conditions</a></li>
+        <li><a th:href="@{/onLeasing}">Leasing Services</a></li>
+        <li><a th:href="@{/onMaintenance}">Maintenance</a></li>
+        <li><a th:href="@{/onContacts}">Contacts</a></li>
+    </ul>
+</div>
+
+<body>
+
+<div class="body5">
+        <!--Car Info    -->
+        <div class = "carInfo">
+            <img class="blockIMG" th:src="@{'/images/' + ${cur.get().car_model} + '.jpg'}" alt="car" width="480" height="400">
+
+            <div class="currentInfo">
+                <p class="currentModel" th:text="${'Car Model: ' +cur.get().getCar_model()}"><p/>
+                <p class="currentYear" th:text="${'Year: ' +cur.get().getYear()}"><p/>
+                <p class="currentPrice" th:text="${'Price Per Day: ' +cur.get().getPricePerDay()}"><p/>
+                <p class="currentEquipment" th:text ="${'Equipment: ' +cur.get().getEquipment()}"></p>
+                <p class="bodyType" th:text ="${'Body Type: ' +cur.get().body.body}"></p>
+                <p class="gearType" th:text ="${'GearBox Type: ' +cur.get().gear.gearBox}"></p>
+                <p class="fuelType" th:text ="${'Fuel Type: ' + cur.get().fuel.fuel}"></p>
+
+                <div class="atent">
+                <p class="attention">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attention!<br>
+                    All prices are in US Dollars $.
+                    After rent, you get a car with
+                    full fuel tank, but in future
+                    customer will pay for fuel
+                    itself. Customer is
+                    responsible for the car!
+                </p>
+                </div>
+            </div>
+        </div>
+
+<!-- Rent Form   -->
+    <div class="orderForm" th:if="!${sendBool}">
+    <h3 class = "rentNow">Rent now!</h3>
+
+        <form action ="#" th:action="@{/orderForm}" th:object="${orderDTO}"  method="post">
+
+            <div class = "name"><p class="">Your Name:</p><input class="inputName" type="text" name="name" th:field="*{customerName}" placeholder="Full Name"/>
+                <p class="nameError" th:if="${#fields.hasErrors('customerName')}" th:errors="*{customerName}"></p>
+            </div>
+
+            <div class = "num"><p class="">Phone Number:</p><input class="inputPhone" type="text" name="description" th:field="*{phoneNumber}" placeholder="Phone Number"/>
+                <p class="phoneError" th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}"></p>
+            </div>
+
+            <div class = "card"><p class="">Card Number:</p><input class="inputCard" type="number" name="producer" th:field="*{cardNumber}" placeholder="Card Number"/>
+                <p class="cardError" th:if="${#fields.hasErrors('cardNumber')}" th:errors="*{cardNumber}"></p>
+            </div>
+
+            <div class = "time"><p class="">Rent Time(days):</p><input class="inputTime" type="number" name="rent" th:field="*{rendTime}" placeholder="Rent Time"/>
+                <p class="timeError" th:if="${#fields.hasErrors('rendTime')}" th:errors="*{rendTime}"></p>
+            </div>
+
+            <div class = "date"><p class="">Start Date:</p><input class="inputDate" type="date" name="date" th:field="*{date}" placeholder="Date"/>
+                <p class="dateError" th:if="${#fields.hasErrors('date')}" th:errors="*{date}"></p>
+            </div>
+
+            <div class="selectLocation"><p class="">Choose Location</p>
+                <select th:field="*{employee}">
+                    <option th:each=" i : ${locationList}" th:value="${i.getEmpl_id().intValue()}" th:text="${i.getLocation()}">
+                </select>
+            </div>
+
+            <button class="submit" name="submit" type="submit" >Rent</button>
+        </form>
+    </div>
+    <!--Rent(Success) Information    -->
+
+    <div class="success" th:if="${sendBool}">
+        <p class="success">Success! In few minutes our employee will contact with you!</p>
+        <table class ="table">
+            <tr class="infoTable">
+                <th>Customer Name</th>
+                <th>Phone Number</th>
+                <th>Car Model</th>
+                <th>Start Date</th>
+                <th>Time of Rent</th>
+                <th>Price per Day</th>
+                <th>Total Price</th>
+            </tr>
+            <tr>
+                <td th:text=" ${orderDTO.getCustomerName()}"></td>
+                <td th:text=" ${orderDTO.getPhoneNumber()}"></td>
+                <td th:text=" ${cur.get().getCar_model()}"></td>
+                <td th:text=" ${orderDTO.getDate()}"></td>
+                <td th:text=" ${orderDTO.getRendTime() + ' days'}"></td>
+                <td th:text=" ${cur.get().getPricePerDay() + '$'}"></td>
+                <td th:text=" ${totalPrice + '$'}"></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+
+
+<!---->
+</div>
+<div class="footer">
+    <div class="company">
+        <h3>About us:</h3>
+        <pre>
+    Rent a car from PRIME-AUTO company - is a service of the
+    highest quality at the global level of service standards,
+    as well as solutions are unique and special fares.
+    Stay current with the best offers of car rental in Moldova.
+                </pre>
+    </div>
+    <img src="/images/phone.png" alt="phone" class="phone2">
+    <div class="info2">Contact us: <br>
+        +373 (69) 922 424<br>
+        +373 (69) 873 766
+    </div>
+    <div class="media2">
+        <!-- uSocial -->
+        <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+        <div class="uSocial-Share" data-pid="b1c54dfa53ace7fc15acf190b33cae9d" data-type="share" data-options="rect,style1,default,absolute,horizontal,size32,eachCounter0,counter0" data-social="vk,fb,ok,twi" data-mobile="vi,wa,sms"></div>
+        <!-- /uSocial -->
+    </div>
+    <div class="srl">
+        2020 "Prime-auto rent and leasing" SRL
+    </div>
+</div>
+</body>
+</html>

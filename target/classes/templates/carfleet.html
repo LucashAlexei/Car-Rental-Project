@@ -1,0 +1,152 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<link type="text/css" rel="stylesheet" th:href="@{/carfleets.css}"/>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog of Cars</title>
+    <link rel="shortcut icon" href="/images/353431-32.png">
+
+    <div class="header-bg">
+        <img class="logo" src="/images/mainlogo-512.png" alt="logo">
+        <div class="header-info"></div>
+
+        <img src="/images/phone.png" alt="phone" class="phone">
+        <div class="info">Contact us: <br>
+            +373 (69) 922 424<br>
+            +373 (69) 873 766
+        </div>
+        <div class="media">
+            <!-- uSocial -->
+            <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+            <div class="uSocial-Share" data-pid="b1c54dfa53ace7fc15acf190b33cae9d" data-type="share" data-options="rect,style1,default,absolute,horizontal,size32,eachCounter0,counter0" data-social="vk,fb,ok,twi" data-mobile="vi,wa,sms"></div>
+            <!-- /uSocial -->
+        </div>
+    </div>
+</head>
+<body>
+<div class="line">
+    <ul class="menu">
+<!--        <a th:href="@{/onService}"><button class="service">Add Item</button></a>-->
+        <li><a th:href="@{/onIndex}">Main Page</a></li>
+        <li><a th:href="@{/onCarfleet}">Car Fleet</a></li>
+        <li><a th:href="@{/onConditions}">Conditions</a></li>
+        <li><a th:href="@{/onLeasing}">Leasing Services</a></li>
+        <li><a th:href="@{/onMaintenance}">Maintenance</a></li>
+        <li><a th:href="@{/onContacts}">Contacts</a></li>
+    </ul>
+</div>
+
+<div class="body">
+
+    <div th:if="${filterFleet == false}">
+    <!--Car Fleet    -->
+        <div class = "carBlock" th:each="i : ${fleetList}">
+            <img class="blockIMG" th:src="@{'/images/' + ${i.car_model} + '.jpg'}" alt="car" width="480" height="400" style="background-color:white;">
+            <p class="carName" th:text ="${i.car_model}"></p>
+            <p class="carYear" th:text ="${'Year: ' + i.year}"></p>
+            <p class="carPrice" th:text ="${'Price per Day: ' + i.pricePerDay}"></p>
+            <a th:href= "@{'/onCurrent/' + ${i.car_id}}"><button class="more">More</button></a>
+        </div>
+
+        <ul class="pagination" th:if="${not #lists.isEmpty(fleetList)}">
+            <li th:each = "i : ${#numbers.sequence(0, fleetList.getTotalPages() -1)}">
+                <a class="page-link" th:href="@{/carfleet/(page=${i})}" th:text = "${i}"></a></li>
+        </ul>
+    </div>
+
+    <div th:if="${filterFleet == true}">
+        <div class = "carBlock" th:each="j : ${filterList}">
+            <img class="blockIMG" th:src="@{'/images/' + ${j.car_model} + '.jpg'}" alt="car" width="480" height="400" style="background-color:white;">
+            <p class="carName" th:text ="${j.car_model}"></p>
+            <p class="carYear" th:text ="${'Year: ' + j.year}"></p>
+            <p class="carPrice" th:text ="${'Price per Day: ' + j.pricePerDay}"></p>
+            <a th:href= "@{'/onCurrent/' + ${j.car_id}}"><button class="more">More</button></a>
+        </div>
+
+        <ul class="pagination" th:if="${not #lists.isEmpty(filterList)}">
+            <li th:each = "j : ${#numbers.sequence(0, filterList.getTotalPages() -1)}">
+                <a class="page-link" th:href="@{/getPages/(page=${j})}" th:text = "${j}"></a></li>
+        </ul>
+    </div>
+
+<!--    &lt;!&ndash;Pagination    &ndash;&gt;-->
+
+<!--    <ul class="pagination" th:if="${not #lists.isEmpty(fleetList)}">-->
+<!--        <li th:each = "i : ${#numbers.sequence(0, fleetList.getTotalPages() -1)}">-->
+<!--            <a class="page-link" th:href="@{/carfleet/(page=${i})}" th:text = "${i}"></a></li>-->
+<!--    </ul>-->
+
+</div>
+
+<div class="filter">
+    <form action ="#" method="post" class="form1" th:object="${filterDTO}" th:action="@{/filter}">
+        <p class="main">Filter</p>
+        <div class="box">
+            <br><p class="textFilter">Price</p>
+            <select class="sel1"  th:field="*{sortingOrder}">
+                <option th:value="'any'">Any</option>
+                <option th:value="'ascending'" >Ascending</option>
+                <option th:value="'descending'" >Descending</option>
+            </select><br>
+
+            <p class="textFilter">Body Type</p>
+                <select class="sel2"  th:field="*{sortingBody}">
+                    <option th:value = "'any'" th:text="Any"></option>
+                    <option  th:each=" i : ${Body}" th:value="${i.getBody()}" th:text="${i.getBody()}">
+                </select><br>
+
+            <p class="textFilter">GearBox</p>
+                <select class="sel3"  th:field="*{sortingGear}">
+                    <option th:value = "any" th:text="Any"></option>
+                    <option  th:each=" i : ${Gear}" th:value="${i.getGearBox()}" th:text="${i.getGearBox()}">
+                </select><br>
+
+            <p class="textFilter">Fuel Type</p>
+                <select class="sel4"  th:field="*{sortingFuel}">
+                    <option th:value = "any" th:text="Any"></option>
+                    <option th:each=" i : ${Fuel}" th:value="${i.getFuel()}" th:text="${i.getFuel()}">
+                </select><br>
+
+            <p class="textFilter">Equipment</p>
+            <select class="sel5" name= "equipment" th:field="*{sortingEquipment}">
+                <option  th:value="'any'">Any</option>
+                <option value="basic" th:value="'basic'">Basic</option>
+                <option value="middle" th:value="'middle'">Middle</option>
+                <option value="lux" th:value="'lux'">Lux</option>
+            </select><br>
+        </div>
+        <button type="submit" class="search">Search</button>
+
+    </form>
+</div>
+<a href=""><img src="/images/bla.png" id="ad"></a>
+<a href=""><img src="/images/bla2.png" id="ad2"></a>
+
+
+<div class="footer">
+    <div class="company">
+        <h3>About us:</h3>
+        <pre>
+    Rent a car from PRIME-AUTO company - is a service of the
+    highest quality at the global level of service standards,
+    as well as solutions are unique and special fares.
+    Stay current with the best offers of car rental in Moldova.
+                </pre>
+    </div>
+    <img src="/images/phone.png" alt="phone" class="phone2">
+    <div class="info2">Contact us: <br>
+        +373 (69) 922 424<br>
+        +373 (69) 873 766
+    </div>
+    <div class="media2">
+        <!-- uSocial -->
+        <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+        <div class="uSocial-Share" data-pid="b1c54dfa53ace7fc15acf190b33cae9d" data-type="share" data-options="rect,style1,default,absolute,horizontal,size32,eachCounter0,counter0" data-social="vk,fb,ok,twi" data-mobile="vi,wa,sms"></div>
+        <!-- /uSocial -->
+    </div>
+    <div class="srl">
+        2020 "Prime-auto rent and leasing" SRL
+    </div>
+</div>
+</body>
+</html>

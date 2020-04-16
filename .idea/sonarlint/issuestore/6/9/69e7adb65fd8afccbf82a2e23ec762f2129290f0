@@ -1,0 +1,19 @@
+
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¼»À—.
+o
+java:S1128
+"RRemove this unused import 'org.springframework.data.jpa.repository.JpaRepository'.(À™‡“8 „¬¿—.
+X	java:S125"<This block of commented-out lines of code should be removed.(€çª8ÊşÜÅ—.
+e
+java:S1128"HRemove this unused import 'org.springframework.data.domain.PageRequest'.(ºêâÚ8ÌÀ¼æ—.
+]	java:S125"<This block of commented-out lines of code should be removed.(ÁÅÛ—üÿÿÿÿ8¹œİÅ—.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øñÎ†8÷×ÜĞ•.
+X	java:S125%"<This block of commented-out lines of code should be removed.(Ã®³â8ÆèÜÅ—.
+X	java:S125!"<This block of commented-out lines of code should be removed.(ãòÔ®8ÊşÜÅ—.
+X	java:S125>"<This block of commented-out lines of code should be removed.(¬—åï8»ÜÅ—.
+]	java:S125D"<This block of commented-out lines of code should be removed.(§›®Îÿÿÿÿÿ8†—ÜÅ—.
+X	java:S125)"<This block of commented-out lines of code should be removed.(¶¾º­8ÆèÜÅ—.
+]	java:S125;"<This block of commented-out lines of code should be removed.(†Àîğÿÿÿÿÿ8»ÜÅ—.
+X	java:S1258"<This block of commented-out lines of code should be removed.(×Íü»8»ÜÅ—.
+X	java:S1255"<This block of commented-out lines of code should be removed.(×İ¬â8»ÜÅ—.

@@ -1,0 +1,416 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url('images/bg.png') ;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    margin: 0;
+}
+.header-bg {
+    display: block; /* Для старых браузеров */
+    height: 150px; /* Высота шапки */
+    background-color: whitesmoke;
+    opacity: 1.0;
+
+}
+.logo{
+    margin-left: 300px;
+    margin-top: -150px;
+    position: absolute;
+    height: 490px;
+    width: 490px;
+}
+
+.phone{
+    position: absolute;
+    margin-left: 1140px;
+    margin-top: 40px;
+}
+.info{
+    position: absolute;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: larger;
+    margin-left: 1200px;
+    margin-top: 30px;
+}
+.media{
+    position: absolute;
+    margin-left: 1425px;
+    margin-top: 52px;
+}
+.line{
+    display: inline-block;
+    height: 60px;
+    width: 1903px;
+    background-color: white;
+    border-top: 0.3px solid lightgray;
+    border-bottom: 0.3px solid lightgrey;
+    /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+}
+.menu li{
+    text-align: center;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    top: -15px;
+    left: 310px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: large;
+    float: left;
+    position: relative;
+    list-style: none;
+    background: white;
+    width: 203px;
+    text-decoration: none;
+}
+.menu a{
+    text-decoration: none;
+    display: block;
+    padding: 19px 19px;
+    color: black;
+}
+/*BACKGROUND BODY*/
+.body{
+    margin-left: 350px;
+    width: 1228px;
+    height: 460px;
+    border-bottom: 0.5px solid lightgray;
+    background-color: white;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+#active a, a:hover{
+    background: red;
+    color: white;
+}
+
+#slider { /*положение слайдера*/
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+    top: 20px;
+}
+
+#slides article{ /*все изображения справа друг от доруга*/
+    width: 20%;
+    float: left;
+}
+
+#slides .image{ /*устанавливает общий размер блока с изображениями*/
+    width: 500%;
+    line-height: 0;
+}
+
+#overflow{ /*сркывает все, что находится за пределами этого блока*/
+    width: 100%;
+    overflow: hidden;
+}
+
+article img{ /*размер изображений слайдера*/
+    width: 100%;
+}
+
+#desktop:checked ~ #slider{ /*размер всего слайдера*/
+    max-width: 530px; /*максимальнная длинна*/
+}
+
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#switch1:checked ~ #controls label:nth-child(5),
+#switch2:checked ~ #controls label:nth-child(1),
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3),
+#switch5:checked ~ #controls label:nth-child(4){
+    background: url("images/n.png") no-repeat; /*заливка фона картинкой без повторений*/
+    float: left;
+    margin: -40px 0 0 -84px; /*сдвиг влево*/
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#switch1:checked ~ #controls label:nth-child(2),
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(5),
+#switch5:checked ~ #controls label:nth-child(1){
+    background: url('images/p.png') no-repeat; /*заливка фона картинкой без повторений*/
+    float: right;
+    margin: -40px -84px 0 0; /*сдвиг вправо*/
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+
+label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+    cursor: pointer;
+}
+
+.all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+    display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image{
+    margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+    margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image{
+    margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image{
+    margin-left: -300%;
+}
+
+#switch5:checked ~ #slides .image{
+    margin-left: -400%;
+}
+
+#controls{ /*положение блока всех управляющих элементов*/
+    margin: -30% 0 0 0;
+    width: 100%;
+    height: 50px;
+}
+
+#active label{ /*стиль отдельного переключателя*/
+    border-radius: 10px; /*скругление углов*/
+    display: inline-block; /*расположение в строку*/
+    width: 15px;
+    height: 15px;
+    background: #bbb;
+}
+
+#active{ /*расположение блока с переключателями*/
+    margin: 23% 0 0;
+    text-align: center;
+}
+
+#active label:hover{ /*поведение чекбокса при наведении*/
+    background: orangered;
+    border-color: #777 !important; /*выполнение в любом случае*/
+}
+
+/*цвет активного лейбла при активации чекбокса*/
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4),
+#switch5:checked ~ #active label:nth-child(5){
+    background: red;
+    border-color: red !important;
+}
+
+#slides .image{ /*анимация пролистывания изображений*/
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#controls label:hover{ /*прозрачность стрелок при наведении*/
+    opacity: 0.6;
+}
+
+#controls label{ /*прозрачность стрелок при отводе курсора*/
+    transition: opacity 0.2s ease-out;
+}
+.border{
+    text-align: start;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    /*border-top: 22px solid red;*/
+    background-color: white;
+    position: absolute;
+    height: 390px;
+    width: 420px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 5px;
+}
+.air{
+    position: absolute;
+    margin-left: -5px;
+    margin-top:-5px;
+    height: 400px;
+    width: 430px;
+    opacity: 0.6;
+}
+.descr{
+    padding: 32px;
+    text-align: center;
+    font-size: 43px;
+    font-family: Helvetica,sans-serif;
+    color: black;
+    position: absolute;
+}
+.plane{
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 200px;
+}
+.descr2{
+    position: absolute;
+    color: black;
+    margin-left: 55px;
+    margin-top: 210px;
+    font-size: 25px;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+}
+.button{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 300px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: orangered #000 red;
+    border-radius: 6px;
+    background: red;
+    transition: 0.2s;
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: darkred;
+    color: white;
+    font-size: 22px;
+    height: 63px;
+    width: 133px;
+    cursor: pointer;
+}
+
+.body2{
+    background-color: whitesmoke;
+    margin-left: 350px;
+    width: 1228px;
+    height: 500px;
+    border-bottom: 2px solid red;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.b1{
+    padding: 10px;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    height: 80px;
+    width: 355px;
+    background: rgb(98,51,43);
+    background: linear-gradient(0deg, rgba(98,51,43,1) 0%, rgba(97,83,83,1) 100%);
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+
+}
+.b2{
+    padding: 10px;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 430px;
+    position: absolute;
+    height: 80px;
+    width: 355px;
+    background: rgb(98,51,43);
+    background: linear-gradient(0deg, rgba(98,51,43,1) 0%, rgba(97,83,83,1) 100%);
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+.b3{
+    padding: 10px;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 840px;
+    position: absolute;
+    height: 80px;
+    width: 355px;
+    background: rgb(98,51,43);
+    background: linear-gradient(0deg, rgba(98,51,43,1) 0%, rgba(97,83,83,1) 100%);
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+.h3{
+    text-align: left;
+    font-size: x-large;
+    color: white;
+    font-family: "Trebuchet MS",sans-serif;
+    text-decoration: none;
+}
+.rent{
+    margin-top: -66px;
+    margin-left: 270px;
+}
+.lease{
+    margin-top: -66px;
+    margin-left: 270px;
+}
+.key{
+    z-index: 3;
+    position: relative;
+    margin-top: -66px;
+    margin-left: 270px;
+}
+.about{
+    text-align: left;
+    white-space: normal;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 25px;
+    font-family: "Trebuchet MS",sans-serif;
+}
+
+/*!!!!!!!!!!!!!!footer!!!!!!!!!!!!!*/
+.footer{
+    border-top: 1px solid lightgray;
+    height: 170px;
+    width: 1903px;
+    background-color: white;
+}
+.footer h3{
+    margin-left: 10px;
+}
+.company{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 340px;
+    font-family: Helvetica,sans-serif;
+    font-weight: bold;
+}
+.phone2{
+    position:absolute;
+    margin-left: 900px;
+    margin-top: 50px;
+}
+.info2{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 965px;
+    font-size: large;
+}
+.media2{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 1425px;
+}
+.srl{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 1280px;
+    font-weight: bold;
+}
+

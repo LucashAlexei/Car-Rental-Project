@@ -1,0 +1,123 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<link type="text/css" rel="stylesheet" th:href="@{/adm.css}"/>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Page</title>
+    <link rel="shortcut icon" href="/images/353431-32.png">
+<!--    <link rel="stylesheet" href="/contacts.css" type="text/css">-->
+    <div class="header-bg">
+        <img class="logo" src="/images/mainlogo-512.png" alt="logo">
+        <div class="header-info"></div>
+
+        <img src="/images/phone.png" alt="phone" class="phone">
+        <div class="info">Contact us: <br>
+            +373 (69) 922 424<br>
+            +373 (69) 873 766
+        </div>
+        <div class="media">
+            <!-- uSocial -->
+            <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+            <div class="uSocial-Share" data-pid="b1c54dfa53ace7fc15acf190b33cae9d" data-type="share" data-options="rect,style1,default,absolute,horizontal,size32,eachCounter0,counter0" data-social="vk,fb,ok,twi" data-mobile="vi,wa,sms"></div>
+            <!-- /uSocial -->
+        </div>
+    </div>
+</head>
+<div class="line">
+    <ul class="menu">
+        <li><a th:href="@{/onIndex}">Main Page</a></li>
+        <li><a th:href="@{/onCarfleet}">Car Fleet</a></li>
+        <li><a th:href="@{/onConditions}">Conditions</a></li>
+        <li><a th:href="@{/onLeasing}">Leasing Services</a></li>
+        <li><a th:href="@{/onMaintenance}">Maintenance</a></li>
+        <li><a th:href="@{/onContacts}">Contacts</a></li>
+    </ul>
+</div>
+
+<body>
+
+<div class="body">
+
+    <div class="information"></div>
+
+        <h3>ADMIN CAR FLEET CONTROL PAGE</h3>
+        <pre class="inform">
+        This is the page for "PRIME-AUTO" auto rent and service administrators. Here administrators can manipulate of car fleet
+        schedule on web-site.
+        </pre>
+        <h3>Adding Form</h3>
+
+        <form method="post" class="admin" th:object="${object}" th:action="@{adminFrom}">
+            <div class="input1">
+                <p class="text">Car Model</p>
+                <input type="text" class="model" th:field="*{carModel}"/>
+            </div>
+
+            <div class="input2">
+                <p class="text">Equipment</p>
+                <input type="text" class="equipment" th:field="*{equipment}"/>
+            </div>
+
+            <div class="input3">
+                <p class="text">Price per Day</p>
+                <input type="number" class="price" th:field="*{pricePerDay}"/>
+            </div>
+
+            <div class="input4">
+                <p class="text">Year of Produce</p>
+                <input type="number" class="year" th:field="*{year}"/>
+            </div>
+
+            <div class="select1">
+            <p class="text">Choose Body Type</p>
+            <select th:field="*{body}">
+                <option th:each=" i : ${bodyList}" th:value="${i.getBody_id().intValue()}" th:text="${i.getBody()}">
+            </select>
+            </div>
+
+            <div class="select2">
+            <p class="text">Choose GearBox Type</p>
+            <select th:field="*{gearBox}">
+                <option th:each=" i : ${gearBoxList}" th:value="${i.getGear_id().intValue()}" th:text="${i.getGearBox()}">
+            </select>
+            </div>
+
+            <div class="select3">
+            <p class="text">Choose Fuel Type</p>
+            <select th:field="*{fuel}">
+                <option th:each=" i : ${fuelList}" th:value="${i.getFuel_id().intValue()}" th:text="${i.getFuel()}">
+            </select>
+            </div>
+
+            <button type="submit" class="adminSubmit">Add</button>
+
+        </form>
+
+</div>
+</body>
+<div class="footer">
+    <div class="company">
+        <h3>About us:</h3>
+        <pre>
+    Rent a car from PRIME-AUTO company - is a service of the
+    highest quality at the global level of service standards,
+    as well as solutions are unique and special fares.
+    Stay current with the best offers of car rental in Moldova.
+                </pre>
+    </div>
+    <img src="/images/phone.png" alt="phone" class="phone2">
+    <div class="info2">Contact us: <br>
+        +373 (69) 922 424<br>
+        +373 (69) 873 766
+    </div>
+    <div class="media2">
+        <!-- uSocial -->
+        <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+        <div class="uSocial-Share" data-pid="b1c54dfa53ace7fc15acf190b33cae9d" data-type="share" data-options="rect,style1,default,absolute,horizontal,size32,eachCounter0,counter0" data-social="vk,fb,ok,twi" data-mobile="vi,wa,sms"></div>
+        <!-- /uSocial -->
+    </div>
+    <div class="srl">
+        2020 "Prime-auto rent and leasing" SRL
+    </div>
+</div>
+</html>

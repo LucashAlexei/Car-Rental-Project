@@ -1,0 +1,15 @@
+
+d
+java:S1226"GIntroduce a new variable instead of reusing the parameter "sendFilter".(äÃ’ 8ÌÑê—.
+e
+java:S1226î"GIntroduce a new variable instead of reusing the parameter "sendFilter".(äÃ’ 8ÌÑê—.
+p
+java:S3776í"RRefactor this method to reduce its Cognitive Complexity from 84 to the 15 allowed.(ÿóËİ8ÌÑê—.
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 84 to the 15 allowed.(´úşÈÿÿÿÿÿ8œÙÍê—.
+g
+java:S1192'"KDefine a constant instead of duplicating this literal "ascending" 28 times.(çÚ8ÌÑê—.
+n
+java:S11924"LDefine a constant instead of duplicating this literal "descending" 28 times.(‘ÀÄøÿÿÿÿ8ÌÑê—.
+n
+java:S1192$"LDefine a constant instead of duplicating this literal "filterList" 84 times.(›Ÿ•ñûÿÿÿÿ8ÌÑê—.

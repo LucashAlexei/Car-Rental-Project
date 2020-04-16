@@ -1,0 +1,142 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<link type="text/css" rel="stylesheet" th:href="@{/index.css}"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Prime-Auto</title>
+    <link rel="shortcut icon" href="/images/353431-32.png">
+    <link rel="stylesheet" href="/index.css" type="text/css">
+    <div class="header-bg">
+        <img class="logo" src="/images/mainlogo-512.png" alt="logo">
+        <div class="header-info"></div>
+
+        <img src="/images/phone.png" alt="phone" class="phone">
+        <div class="info">Contact us: <br>
+            +373 (69) 922 424<br>
+            +373 (69) 873 766
+        </div>
+        <div class="media">
+            <!-- uSocial -->
+            <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+            <div class="uSocial-Share" data-pid="b1c54dfa53ace7fc15acf190b33cae9d" data-type="share" data-options="rect,style1,default,absolute,horizontal,size32,eachCounter0,counter0" data-social="vk,fb,ok,twi" data-mobile="vi,wa,sms"></div>
+            <!-- /uSocial -->
+        </div>
+    </div>
+</head>
+<div class="line">
+    <ul class="menu">
+        <li><a th:href="@{/onIndex}">Main Page</a></li>
+        <li><a th:href="@{/onCarfleet}">Car Fleet</a></li>
+        <li><a th:href="@{/onConditions}">Conditions</a></li>
+        <li><a th:href="@{/onLeasing}">Leasing Services</a></li>
+        <li><a th:href="@{/onMaintenance}">Maintenance</a></li>
+        <li><a th:href="@{/onContacts}">Contacts</a></li>
+    </ul>
+</div>
+<body>
+<div class="body">
+
+    <div class="border">
+        <img class="air" src="/images/air.png">
+        <span class="descr">Now available delivering car in each point of city!</span>
+        <img class="plane" src="/images/plane.png"><span class="descr2">Available to pick up the car from airport. Contact us for more information!</span>
+        <a class="a1" th:href="@{/onCarfleet}"><button class="button">Rent Now</button></a>
+    </div>
+
+    <div class="all">
+        <input checked type="radio" name="respond" id="desktop">
+        <article id="slider">
+            <input checked type="radio" name="slider" id="switch1">
+            <input type="radio" name="slider" id="switch2" value="2">
+            <input type="radio" name="slider" id="switch3"value="3">
+            <input type="radio" name="slider" id="switch4"value="4">
+            <input type="radio" name="slider" id="switch5"value="5">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="image">
+                        <article><img th:src="@{/images/Ford_Focus.jpg}">
+                        </article>
+                        <article><img th:src="@{/images/Volkswagen Tiguan.jpg}">
+                        </article>
+                        <article><img th:src="@{/images/Skoda_Octavia.jpg}">
+                        </article>
+                        <article><img th:src="@{/images/Skoda Kodiaq.png}">
+                        </article>
+                        <article><img th:src="@{/images/Toyota Rav.jpg}">
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+                <label for="switch4"></label>
+                <label for="switch5"></label>
+            </div>
+            <div id="active">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+                <label for="switch4"></label>
+                <label for="switch5"></label>
+            </div>
+        </article>
+    </div>
+</div>
+
+<div class="body2">
+    <a class="b1" th:href="@{/onCarfleet}"><h3 class="h3">Car Rental</h3><img class="rent" src="/images/rent.png"></a>
+    <a class="b2" th:href="@{/onLeasing}"><h3 class="h3">Operational Lease</h3><img class="lease" src="/images/lease.png"></a>
+    <a class="b3" th:href="@{/onMaintenance}"><h3 class="h3">Maintenance</h3><img class="key" src="/images/key.png"></a>
+
+    <div class="about">
+        <h2>About our Company</h2>
+        <pre>
+    Company "PRIME-AUTO rent, leasing and maintenance" provides the Moldavian market of rental service and operational leasing of passenger cars , as well as
+    purchasing and maintenance , car rental with driver , transfers, leasing business package , fleet management , booking cars abroad . We offer new cars from
+    subcompact to luxury and first-class European service for our customers. "PRIME-AUTO rent & leasing" - a team of professionals with extensive experience in
+    the service of operational leasing and rental.
+
+    Operational leasing service for corporate clients and companies having a need for professional services of company car fleet includes a wide range of
+    services ranging from financing the acquisition of vehicles to complete their maintenance during operation.
+
+    In order to provide technical support for company cars "PRIME-AUTO rent & leasing and maintenance" has partnered with specialized service stations.
+
+    To provide technical assistance to our clients, we have A 24\24 telephone line. On this phone are accepted as planned bid for the maintenance and emergency
+    calls for technical assistance.
+
+    Long-term strategy involves providing innovative and flexible products and services in the business to ensure individual mobility customers.
+
+    Regarding the main activities we offer a modern quality service with unmatched monetary policy . Our target – to satisfy the needs of each client. High
+    motivation , relevant professional level of our employees , flexible individual approach to each client is the guarantee
+            </pre>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="company">
+        <h3>About us:</h3>
+        <pre>
+    Rent a car from PRIME-AUTO company - is a service of the
+    highest quality at the global level of service standards,
+    as well as solutions are unique and special fares.
+    Stay current with the best offers of car rental in Moldova.
+                </pre>
+    </div>
+    <img src="/images/phone.png" alt="phone" class="phone2">
+    <div class="info2">Contact us: <br>
+        +373 (69) 922 424<br>
+        +373 (69) 873 766
+    </div>
+    <div class="media2">
+        <!-- uSocial -->
+        <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+        <div class="uSocial-Share" data-pid="b1c54dfa53ace7fc15acf190b33cae9d" data-type="share" data-options="rect,style1,default,absolute,horizontal,size32,eachCounter0,counter0" data-social="vk,fb,ok,twi" data-mobile="vi,wa,sms"></div>
+        <!-- /uSocial -->
+    </div>
+    <div class="srl">
+        2020 "Prime-auto rent and leasing" SRL
+    </div>
+</div>
+</body>
+</html>

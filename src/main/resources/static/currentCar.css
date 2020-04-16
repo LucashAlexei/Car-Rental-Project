@@ -1,0 +1,364 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url('images/bg.png') ;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    margin: 0;
+}
+.header-bg {
+    display: block; /* Для старых браузеров */
+    height: 150px; /* Высота шапки */
+    background-color: whitesmoke;
+    opacity: 1.0;
+
+}
+.logo{
+    margin-left: 300px;
+    margin-top: -150px;
+    position: absolute;
+    height: 490px;
+    width: 490px;
+}
+
+.phone{
+    position: absolute;
+    margin-left: 1140px;
+    margin-top: 40px;
+}
+.info{
+    position: absolute;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: larger;
+    margin-left: 1200px;
+    margin-top: 30px;
+}
+.media{
+    position: absolute;
+    margin-left: 1425px;
+    margin-top: 52px;
+}
+.line{
+    display: inline-block;
+    height: 60px;
+    width: 1903px;
+    background-color: white;
+    border-top: 0.3px solid lightgray;
+    border-bottom: 0.3px solid lightgrey;
+    /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+}
+.menu li{
+    text-align: center;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    top: -15px;
+    left: 310px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: large;
+    float: left;
+    position: relative;
+    list-style: none;
+    background: white;
+    width: 203px;
+    text-decoration: none;
+}
+.menu a{
+    text-decoration: none;
+    display: block;
+    padding: 19px 19px;
+    color: black;
+}
+.menu:hover{
+    background-color: red;
+    color: white;
+}
+#active a, a:hover{
+    background: red;
+    color: white;
+}
+.body5{
+    background-color: white;
+    margin-left: 350px;
+    width: 1228px;
+    height: 840px;
+    border: 1px solid lightgray;
+    border-bottom: 2px solid red;
+}
+.rentNow{
+    margin-top: 25px;
+    margin-left: 70px;
+    font-size: large;
+    color: crimson;
+    font-family: "Trebuchet MS", sans-serif;
+}
+p{
+    font-size: medium;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.name{
+    margin-left: 70px;
+}
+
+.num{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.card{
+    margin-left: 480px;
+    margin-top: -217px;
+}
+
+.time{
+    margin-top: 50px;
+    margin-left: 480px;
+    /*margin-top: -46px;*/
+}
+
+.date{
+    margin-left: 880px;
+    margin-top: -219px;
+}
+.selectLocation{
+    margin-top: 50px;
+    margin-left: 880px;
+}
+select {
+    /*margin-left: 760px;*/
+    background: none;
+    color: black;
+    padding: 3px;
+    height: 40px;
+    width: 225px;
+    border: 1px solid grey;
+    font-size: inherit;
+    font-family: inherit;
+    box-shadow: 0 1px 1px darkred;
+    outline: 0;
+}
+select:hover{
+    box-shadow: 0 1px 2px black;
+}
+
+.submit{
+    margin-left: 70px;
+    margin-top: 72px;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: orangered #000 red;
+    border-radius: 6px;
+    background: red;
+    transition: 0.2s;
+    height: 41px;
+    width: 101px;
+    font-size: 20px;
+}
+.submit:hover{
+    background-color: darkred;
+    color: white;
+    font-size: 22px;
+    height: 43px;
+    width: 103px;
+    cursor: pointer;
+}
+
+input{
+    border: 2px solid gray;
+    height: 40px;
+    width: 225px;
+}
+input:focus {
+    border: 2px solid red;
+}
+/*Validation error*/
+.nameError{
+    position: absolute;
+    color: red;
+}
+.phoneError{
+    position: absolute;
+    color: red;
+}
+.cardError{
+    position: absolute;
+    color: red;
+}
+.timeError{
+    position: absolute;
+    color: red;
+}
+.dateError{
+    position: absolute;
+    color: red;
+}
+    /**/
+
+/*CAR INFO*/
+
+.carInfo{
+    display: block;
+    height: 400px;
+    width: 1180px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+
+.currentInfo{
+    display: block;
+    height: 360px;
+    width: 600px;
+    margin-top: -410px;
+    margin-left: 500px;
+    border-left: 1px solid red;
+}
+.currentModel{
+    font-size: 22px;
+    color: red;
+}
+.currentInfo p{
+    font-family: "Trebuchet MS", sans-serif;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.atent{
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    display: block;
+    margin-left: 380px;
+    margin-top: -320px;
+    height: 270px;
+    width: 275px;
+}
+.attention{
+    padding: 8px;
+    margin-left: 200px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+}
+/**/
+
+/*success rent*/
+.success{
+    margin-top: 40px;
+    font-size: 22px;
+    margin-left: 162px;
+    color: darkred;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.table{
+    margin-top: 40px;
+    margin-left: -83px;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr, th, td{
+    padding: 7px;
+}
+th{
+    font-family: "Trebuchet MS", sans-serif;
+    color: black;
+    size: 15px;
+}
+tbody tr:nth-child(odd) {
+    font-family: Cambria, sans-serif;
+    /*background-color: whitesmoke;*/
+    border-bottom: 2px solid orangered;
+}
+
+tbody tr:nth-child(even) {
+    font-family: "Trebuchet MS", sans-serif;
+    /*background-color: lightgrey;*/
+    border-bottom: 2px solid orangered;
+}
+
+/*!!!!!!!!!!!!!!footer!!!!!!!!!!!!!*/
+.footer{
+    border-top: 1px solid lightgray;
+    height: 170px;
+    width: 1903px;
+    background-color: white;
+}
+.footer h3{
+    margin-left: 10px;
+}
+.company{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 340px;
+    font-family: Helvetica,sans-serif;
+    font-weight: bold;
+}
+.phone2{
+    position:absolute;
+    margin-left: 900px;
+    margin-top: 50px;
+}
+.info2{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 965px;
+    font-size: large;
+}
+.media2{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 1425px;
+}
+.srl{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 1280px;
+    font-weight: bold;
+}
+
+.bodyLeas{
+    margin-left: 350px;
+    height: 1000px;
+    width: 1228px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-bottom: 2px solid red;
+}
+.service{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 950px;
+    width: 780px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
+}
+.text{
+    padding: 16px;
+}
+.disc{
+    text-align: center;
+}
+.rental{
+    margin-top: -960px;
+    margin-left: 810px;
+    border: 1px solid black;
+    height: 330px;
+    width: 350px;
+    padding: 11px;
+}
+.rental2{
+    text-align: center;
+    font-size: 30px;
+}
+.text2{
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+}

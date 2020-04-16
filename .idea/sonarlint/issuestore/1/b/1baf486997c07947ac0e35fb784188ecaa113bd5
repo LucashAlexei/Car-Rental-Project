@@ -1,0 +1,8 @@
+
+k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¬“Òşÿÿÿÿ
+f	java:S116"QRename this field "cus_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ô
+k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¬“Òşÿÿÿÿ
+h	java:S116"SRename this field "cus_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û¼¡î
+k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¬“Òşÿÿÿÿ
+h	java:S116"SRename this field "card_num" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ‰Ş²
+q	java:S116"WRename this field "phone_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üœùÿÿÿÿ

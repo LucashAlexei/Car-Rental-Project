@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷Àïÿÿÿÿÿ
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(‡œ£ÿÿÿÿÿ8›êÎÍ–.
+T
+java:S1128"2Remove this unused import 'com.logic.models.Cars'.( Ãéùÿÿÿÿ8¦§˜ğ–.
