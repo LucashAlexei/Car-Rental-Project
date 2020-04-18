@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @RequiredArgsConstructor
 @Controller
-public class CarFleetFilter {
+public class CarFleetFilterController {
     private final CarsRepository carsRepository;
     private final BodyRepository bodyRepository;
     private final GearBoxRepository gearBoxRepository;

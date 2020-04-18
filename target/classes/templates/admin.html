@@ -1,5 +1,5 @@
 <html xmlns:th="http://www.thymeleaf.org">
-<link type="text/css" rel="stylesheet" th:href="@{/adm.css}"/>
+<link type="text/css" rel="stylesheet" th:href="@{/adminstyle.css}"/>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -92,6 +92,39 @@
             <button type="submit" class="adminSubmit">Add</button>
 
         </form>
+
+    <div class="carList">
+        <h3>Car List Control</h3>
+
+        <table class ="table">
+            <tr class="infoTable">
+                <th>Car ID</th>
+                <th>Car Model</th>
+                <th>Year</th>
+                <th>Equipment</th>
+                <th>Price per Day</th>
+                <th>Body Type</th>
+                <th>GearBox Type</th>
+                <th>Fuel Type</th>
+                <th>Delete</th>
+            </tr>
+            <tr th:each="i : ${adminList}">
+                <td th:text=" ${i.getCarId()}"></td>
+                <td th:text=" ${i.getCar_model()}"></td>
+                <td th:text=" ${i.getYear()}"></td>
+                <td th:text=" ${i.getEquipment()}"></td>
+                <td th:text=" ${i.getPricePerDay()}"></td>
+                <td th:text=" ${i.getBody().body}"></td>
+                <td th:text=" ${i.getGear().gearBox}"></td>
+                <td th:text=" ${i.getFuel().fuel}"></td>
+                <td> <a th:href= "@{'/admin/' + ${i.getCarId()}}"><button >Delete</button></a></td>
+            </tr>
+        </table>
+        <ul class="pagination" th:if="${not #lists.isEmpty(adminList)}">
+            <li th:each = "i : ${#numbers.sequence(0, adminList.getTotalPages() -1)}">
+                <a class="page-link" th:href="@{/admin/(page=${i})}" th:text = "${i}"></a></li>
+        </ul>
+    </div>
 
 </div>
 </body>

@@ -1,8 +1,8 @@
 package com.logic.CRUDrepositories;
 
 import com.logic.models.GearBox;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface GearBoxRepository extends CrudRepository<GearBox,Integer> {
+public interface GearBoxRepository extends JpaRepository<GearBox,Integer> {
     GearBox findAllByGearBox(String gear);
 }

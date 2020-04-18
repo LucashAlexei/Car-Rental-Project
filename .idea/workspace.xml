@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86340b7c-027b-434e-b309-d32fd9c7bdef" name="Default Changelist" comment="" />
+    <list default="true" id="86340b7c-027b-434e-b309-d32fd9c7bdef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/BootCarRental.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07b0766ec5d6d40aafbdb1d88e3b0dbbb658eaf9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17b85ee1885afa18c15354743ac663e32cc8b5f4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17b85ee1885afa18c15354743ac663e32cc8b5f4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32a64800245f0c509fcb69e6c28c67e899eda174" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32a64800245f0c509fcb69e6c28c67e899eda174" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69e7adb65fd8afccbf82a2e23ec762f2129290f0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69e7adb65fd8afccbf82a2e23ec762f2129290f0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/814901df60ca4019530fe7fd15c027a80c41f132" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/814901df60ca4019530fe7fd15c027a80c41f132" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdf5f9bc2933c0ace600d7d987a552ca5aa094c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c0b70fb905cdccca6ad6d2bd8a26bc0db645fc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c0b70fb905cdccca6ad6d2bd8a26bc0db645fc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df9f2cff87f486725c81ed7ec5d75f615d3876d1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df9f2cff87f486725c81ed7ec5d75f615d3876d1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7ecd1b702b042effb0ea54ec45ccaa58d5c30cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0f5c5c71880e21dd3d52ffe5459c84599d39017" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0f5c5c71880e21dd3d52ffe5459c84599d39017" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/CRUDrepositories/CarsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/CRUDrepositories/CarsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/models/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/models/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/service/ServiceFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/CarFleetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/CarFleetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/CarFleetFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/CarFleetFilterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/adm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/adminstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/indexpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/carfleet.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/carfleet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BootCarRental.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/CarsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/CarsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/models/Cars.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/models/Cars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/service/ServiceFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/controllers/CarFleetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/controllers/CarFleetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/controllers/CarFleetFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/adm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/carfleet.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/carfleet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="car_rental@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="car_rental@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="car_rental: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="BootCarRental" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,17 +60,13 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aFUQRhaEIlbTC0RIyKtUZmv32y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -65,13 +77,14 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -131,21 +144,24 @@
       <workItem from="1586763193330" duration="23668000" />
       <workItem from="1586850377949" duration="21867000" />
       <workItem from="1586931806579" duration="14584000" />
+      <workItem from="1587016734731" duration="11606000" />
+      <workItem from="1587104355630" duration="701000" />
+      <workItem from="1587120037661" duration="2453000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="817" y="209" key="#Assign_Data_Sources" timestamp="1586339603971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="817" y="209" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1586339603971" />
-    <state x="1047" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586607237688">
+    <state x="1047" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587120461638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1047" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586607237688" />
+    <state x="1047" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587120461638" />
     <state x="1060" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1586353646935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -154,6 +170,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="699" y="478" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1586339455469" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587119790689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587119790689" />
     <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586352609371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,68 +186,77 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="588" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586339454322" />
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1586951059759">
+    <state width="1877" height="417" key="GridCell.Tab.0.bottom" timestamp="1587125713388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059759" />
-    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1586951059759">
+    <state width="1877" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
+    <state width="1877" height="417" key="GridCell.Tab.0.center" timestamp="1587125713388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059759" />
-    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1586951059759">
+    <state width="1877" height="417" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
+    <state width="1877" height="417" key="GridCell.Tab.0.left" timestamp="1587125713388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059759" />
-    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1586951059759">
+    <state width="1877" height="417" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
+    <state width="1877" height="417" key="GridCell.Tab.0.right" timestamp="1587125713388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059759" />
-    <state width="1877" height="305" key="GridCell.Tab.1.bottom" timestamp="1586951059759">
+    <state width="1877" height="417" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
+    <state width="1877" height="417" key="GridCell.Tab.1.bottom" timestamp="1587125713388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059759" />
-    <state width="1877" height="305" key="GridCell.Tab.1.center" timestamp="1586951059759">
+    <state width="1877" height="417" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
+    <state width="1877" height="417" key="GridCell.Tab.1.center" timestamp="1587125713388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059759" />
-    <state width="1877" height="305" key="GridCell.Tab.1.left" timestamp="1586951059759">
+    <state width="1877" height="417" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
+    <state width="1877" height="417" key="GridCell.Tab.1.left" timestamp="1587125713388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059759" />
-    <state width="1877" height="305" key="GridCell.Tab.1.right" timestamp="1586951059759">
+    <state width="1877" height="417" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
+    <state width="1877" height="417" key="GridCell.Tab.1.right" timestamp="1587125713388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059759" />
-    <state width="1877" height="305" key="GridCell.Tab.2.bottom" timestamp="1586951059760">
+    <state width="1877" height="417" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
+    <state width="1877" height="305" key="GridCell.Tab.2.bottom" timestamp="1587045258013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059760" />
-    <state width="1877" height="305" key="GridCell.Tab.2.center" timestamp="1586951059760">
+    <state width="1877" height="305" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587045258013" />
+    <state width="1877" height="305" key="GridCell.Tab.2.center" timestamp="1587045258013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059760" />
-    <state width="1877" height="305" key="GridCell.Tab.2.left" timestamp="1586951059759">
+    <state width="1877" height="305" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587045258013" />
+    <state width="1877" height="305" key="GridCell.Tab.2.left" timestamp="1587045258013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059759" />
-    <state width="1877" height="305" key="GridCell.Tab.2.right" timestamp="1586951059760">
+    <state width="1877" height="305" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587045258013" />
+    <state width="1877" height="305" key="GridCell.Tab.2.right" timestamp="1587045258013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="305" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586951059760" />
+    <state width="1877" height="305" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587045258013" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1586342542298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1586342542298" />
-    <state x="288" y="156" key="SettingsEditor" timestamp="1586353460357">
+    <state x="288" y="156" key="SettingsEditor" timestamp="1587123952270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="288" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586353460357" />
-    <state x="813" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1587016742884">
+    <state x="288" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587123952270" />
+    <state x="813" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1587104356341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="813" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587016742884" />
+    <state x="813" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587104356341" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/springboot/controllers/AdminController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="orderDTO.customer" />

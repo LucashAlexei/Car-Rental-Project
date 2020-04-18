@@ -40,24 +40,11 @@ public class CarFleetController {
         return "carfleet";
     }
 
-//    @GetMapping("/carfleetFilted")
-//    public String getCarFleet2(Model model, @RequestParam(defaultValue = "0")int page, Boolean filterSend){
-//        filterSend = true;
-//        model.addAttribute("filterFleet", filterSend);
-//
-//        model.addAttribute("fleetList", carsRepository.findAll(PageRequest.of(page,3)));
-//        model.addAttribute("Body", bodyRepository.findAll());
-//        model.addAttribute("Gear", gearBoxRepository.findAll());
-//        model.addAttribute("Fuel", fuelRepository.findAll());
-//        model.addAttribute("filterDTO", new FilterDTO());
-//        return "carfleet";
-//    }
-
     //onCurrent info about car
     @GetMapping("/onCurrent/{id}")
     public String bla(Model model, @PathVariable Integer id){
         model.addAttribute("orderDTO", new OrderDTO());
-        carId = carsRepository.findById(id).get().getCar_id();
+        carId = carsRepository.findById(id).get().getCarId();
         model.addAttribute("cur" ,carsRepository.findById(id));
         model.addAttribute("locationList",employeeRepository.findAll());
         model.addAttribute(customerRepository.findAll());

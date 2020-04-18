@@ -45,7 +45,7 @@
             <p class="carName" th:text ="${i.car_model}"></p>
             <p class="carYear" th:text ="${'Year: ' + i.year}"></p>
             <p class="carPrice" th:text ="${'Price per Day: ' + i.pricePerDay}"></p>
-            <a th:href= "@{'/onCurrent/' + ${i.car_id}}"><button class="more">More</button></a>
+            <a th:href= "@{'/onCurrent/' + ${i.carId}}"><button class="more">More</button></a>
         </div>
 
         <ul class="pagination" th:if="${not #lists.isEmpty(fleetList)}">
@@ -60,7 +60,7 @@
             <p class="carName" th:text ="${j.car_model}"></p>
             <p class="carYear" th:text ="${'Year: ' + j.year}"></p>
             <p class="carPrice" th:text ="${'Price per Day: ' + j.pricePerDay}"></p>
-            <a th:href= "@{'/onCurrent/' + ${j.car_id}}"><button class="more">More</button></a>
+            <a th:href= "@{'/onCurrent/' + ${j.carId}}"><button class="more">More</button></a>
         </div>
 
         <ul class="pagination" th:if="${not #lists.isEmpty(filterList)}">
@@ -69,7 +69,6 @@
         </ul>
     </div>
 
-<!--    &lt;!&ndash;Pagination    &ndash;&gt;-->
 
 <!--    <ul class="pagination" th:if="${not #lists.isEmpty(fleetList)}">-->
 <!--        <li th:each = "i : ${#numbers.sequence(0, fleetList.getTotalPages() -1)}">-->

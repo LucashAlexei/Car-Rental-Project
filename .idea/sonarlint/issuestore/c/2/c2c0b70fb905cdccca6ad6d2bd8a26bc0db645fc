@@ -1,8 +1,24 @@
 
-R
-java:S1128"5Remove this unused import 'com.logic.models.GearBox'.(©£ùµ8âñ• —.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷Àïÿÿÿÿÿ
+r	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷Àïÿÿÿÿÿ
+P
+java:S1128"5Remove this unused import 'com.logic.models.GearBox'.(©£ùµ8âñ• —.
+M
+java:S1128"2Remove this unused import 'com.logic.models.Body'.(¾©¨¯8„É• —.
+M
+java:S1128"2Remove this unused import 'com.logic.models.Fuel'.(“ï¸8Ö– —.
+K
+java:S1068"0Remove this unused "sortingOrder" private field.(£¦ñš8óµê½˜.
+I
+java:S1068"/Remove this unused "sortingBody" private field.(ºéÏa8óµê½˜.
 O
-java:S1128"2Remove this unused import 'com.logic.models.Body'.(¾©¨¯8„É• —.
+java:S1068"/Remove this unused "sortingGear" private field.(Ì¢Òşÿÿÿÿ8óµê½˜.
 O
-java:S1128"2Remove this unused import 'com.logic.models.Fuel'.(“ï¸8Ö– —.
+java:S1068"/Remove this unused "sortingFuel" private field.(±¯°šúÿÿÿÿ8óµê½˜.
+T
+java:S1068"4Remove this unused "sortingEquipment" private field.(ÅÂò¢úÿÿÿÿ8óµê½˜.
+H
+java:S1068"(Remove this unused "body" private field.(ĞÒñãùÿÿÿÿ8óµê½˜.
+K
+java:S1068"+Remove this unused "gearBox" private field.(—á®‚ÿÿÿÿÿ8óµê½˜.
+H
+java:S1068"(Remove this unused "fuel" private field.(À¤¹…ûÿÿÿÿ8óµê½˜.

@@ -1,9 +1,6 @@
 package com.logic.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.List;
@@ -12,13 +9,15 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
+@ToString
 @Entity
 @Table(name = "cars")
 public class Cars {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int car_id;
+    @Column(name = "car_id")
+    private int carId;
 
     @Column(name = "car_model")
     private String car_model;
@@ -44,29 +43,8 @@ public class Cars {
     @JoinColumn(name = "FUEL_ID",referencedColumnName = "FUEL_ID")
     private Fuel fuel;
 
-    public Cars(String car_model, String equipment, int pricePerDay, int year) {
-        this.car_model = car_model;
-        this.equipment = equipment;
-        this.pricePerDay = pricePerDay;
-        this.year = year;
-    }
-
     public void addOrder(Orders orders) {
         orders.setCars(this);
         ordersList.add(orders);
-    }
-
-    @Override
-    public String toString() {
-        return "Cars{" +
-                "car_id=" + car_id +
-                ", car_model='" + car_model + '\'' +
-                ", equipment='" + equipment + '\'' +
-                ", price_per_month=" + pricePerDay +
-                ", year=" + year +
-                ", gear=" + gear.getGearBox() +
-                ", body=" + body.getBody() +
-                ", fuel=" + fuel.getFuel() +
-                '}';
     }
 }

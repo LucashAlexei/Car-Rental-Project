@@ -1,4 +1,2 @@
 
-m	java:S116"QRename this field "car_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¤Œì8ˆÖÜÐ•.
-r	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›—²üøÿÿÿÿ8ˆÖÜÐ•.
-u	java:S116"TRename this field "car_model" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¥œŒúÿÿÿÿ8ˆÖÜÐ•.
+s	java:S116"TRename this field "car_model" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¥œŒúÿÿÿÿ8ˆÖÜÐ•.

@@ -1,2 +1,16 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ž÷Àïÿÿÿÿÿ8Ù¶§ñ•.
+y	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ž÷Àïÿÿÿÿÿ8Ù¶§ñ•.
+F
+java:S1068",Remove this unused "carModel" private field.( ¹Î8ñµê½˜.
+G
+java:S1068"-Remove this unused "equipment" private field.(ª¹×78ñµê½˜.
+O
+java:S1068"/Remove this unused "pricePerDay" private field.(‹¸¸Êúÿÿÿÿ8ñµê½˜.
+C
+java:S1068"(Remove this unused "year" private field.(¡‚ºð8ñµê½˜.
+H
+java:S1068"(Remove this unused "body" private field.(ÝÖ…¥ûÿÿÿÿ8ñµê½˜.
+F
+java:S1068"+Remove this unused "gearBox" private field.(õö¦¨8ñµê½˜.
+H
+java:S1068"(Remove this unused "fuel" private field.(º›“„ûÿÿÿÿ8ñµê½˜.

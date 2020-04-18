@@ -1,13 +1,7 @@
 
-R
-java:S3655<"7Call "Optional#isPresent()" before accessing the value.(¬ä–Óùÿÿÿÿ
-\
-java:S1226F"AIntroduce a new variable instead of reusing the parameter "send".(¢åˆ¿şÿÿÿÿ
-c
-java:S1192@"HDefine a constant instead of duplicating this literal "current" 3 times.(Ë‹«­øÿÿÿÿ
-d
-java:S1226 "GIntroduce a new variable instead of reusing the parameter "filterSend".(îáÈã8–şÍä—.
-R
-java:S3655J"7Call "Optional#isPresent()" before accessing the value.(Õñíüÿÿÿÿ
-]	java:S125,"<This block of commented-out lines of code should be removed.(©²Öˆûÿÿÿÿ8Ëºê—.
-X	java:S1250"<This block of commented-out lines of code should be removed.(µ¼äæ8Ëºê—.
+b
+java:S1226"GIntroduce a new variable instead of reusing the parameter "filterSend".(îáÈã8–şÍä—.
+a
+java:S1192"HDefine a constant instead of duplicating this literal "current" 3 times.(Ë‹«­øÿÿÿÿ
+Z
+java:S1226"AIntroduce a new variable instead of reusing the parameter "send".(¢åˆ¿şÿÿÿÿ

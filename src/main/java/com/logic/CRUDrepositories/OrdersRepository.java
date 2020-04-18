@@ -1,7 +1,8 @@
 package com.logic.CRUDrepositories;
 
 import com.logic.models.Orders;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.CrudRepository;
 
-public interface OrdersRepository extends CrudRepository<Orders,Integer> {
+public interface OrdersRepository extends JpaRepository<Orders,Integer> {
 }
