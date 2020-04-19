@@ -13,7 +13,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 public interface CarsRepository extends JpaRepository<Cars,Integer>, PagingAndSortingRepository<Cars,Integer> {//, PagingAndSortingRepository<Cars,Integer>
 
-//    void deleteByCar_model(int id);
     void deleteByCarId(int id);
 
     Page<Cars> findAllByBodyEqualsAndGearEqualsAndFuelEqualsAndEquipmentEquals(Body body, GearBox gearBox, Fuel fuel, String equipment, Pageable page);
@@ -40,6 +39,8 @@ public interface CarsRepository extends JpaRepository<Cars,Integer>, PagingAndSo
     Page<Cars> findAllByFuelEqualsOrderByPricePerDayAsc(Fuel fuel, Pageable page);
     Page<Cars> findAllByFuelEqualsOrderByPricePerDayDesc(Fuel fuel, Pageable page);
     Page<Cars> findAllByGearEqualsOrderByPricePerDayAsc(GearBox gear, Pageable page);
+
+    //найти все машины по типу коробки передач и отсортировать список по уменьшению цены
     Page<Cars> findAllByGearEqualsOrderByPricePerDayDesc(GearBox gear, Pageable page);
 
     Page<Cars> findAllByEquipmentEquals(String equipment, Pageable page);

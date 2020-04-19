@@ -2,48 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86340b7c-027b-434e-b309-d32fd9c7bdef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/BootCarRental.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07b0766ec5d6d40aafbdb1d88e3b0dbbb658eaf9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17b85ee1885afa18c15354743ac663e32cc8b5f4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17b85ee1885afa18c15354743ac663e32cc8b5f4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32a64800245f0c509fcb69e6c28c67e899eda174" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32a64800245f0c509fcb69e6c28c67e899eda174" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69e7adb65fd8afccbf82a2e23ec762f2129290f0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69e7adb65fd8afccbf82a2e23ec762f2129290f0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/814901df60ca4019530fe7fd15c027a80c41f132" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/814901df60ca4019530fe7fd15c027a80c41f132" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdf5f9bc2933c0ace600d7d987a552ca5aa094c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99e12c20e5dc7cdfa75721f4edec535cfb71b5ab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99e12c20e5dc7cdfa75721f4edec535cfb71b5ab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bac62b864522cd097b6b0782b81e1370f95b5c12" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bac62b864522cd097b6b0782b81e1370f95b5c12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c0b70fb905cdccca6ad6d2bd8a26bc0db645fc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c0b70fb905cdccca6ad6d2bd8a26bc0db645fc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb59c6d5f6f653b27fa93ab71aa4a7ef1189c42d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb59c6d5f6f653b27fa93ab71aa4a7ef1189c42d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df9f2cff87f486725c81ed7ec5d75f615d3876d1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df9f2cff87f486725c81ed7ec5d75f615d3876d1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7ecd1b702b042effb0ea54ec45ccaa58d5c30cd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0f5c5c71880e21dd3d52ffe5459c84599d39017" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0f5c5c71880e21dd3d52ffe5459c84599d39017" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/CRUDrepositories/CarsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/CRUDrepositories/CarsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/models/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/models/Cars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/service/ServiceFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/CarFleetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/CarFleetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/CarFleetFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/controllers/CarFleetFilterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/adm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/adminstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/indexpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/carfleet.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/carfleet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BootCarRental.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/logic/CRUDrepositories/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/logic/CRUDrepositories/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/BodyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/BodyRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/CarsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/CarsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/models/Cars.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/models/Cars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/service/ServiceFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/EmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/EmployeeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/FuelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/FuelRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/GearBoxRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/GearBoxRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/OrdersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/logic/CRUDrepositories/OrdersRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/controllers/AdminController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/controllers/CarFleetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/controllers/CarFleetController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/controllers/CarFleetFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/adm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/carfleet.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/carfleet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +65,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -147,6 +124,9 @@
       <workItem from="1587016734731" duration="11606000" />
       <workItem from="1587104355630" duration="701000" />
       <workItem from="1587120037661" duration="2453000" />
+      <workItem from="1587193502221" duration="5993000" />
+      <workItem from="1587276231875" duration="131000" />
+      <workItem from="1587281773088" duration="599000" />
     </task>
     <servers />
   </component>
@@ -186,38 +166,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="588" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586339454322" />
-    <state width="1877" height="417" key="GridCell.Tab.0.bottom" timestamp="1587125713388">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom" timestamp="1587221559311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
-    <state width="1877" height="417" key="GridCell.Tab.0.center" timestamp="1587125713388">
+    <state width="1877" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587221559311" />
+    <state width="1877" height="269" key="GridCell.Tab.0.center" timestamp="1587221559311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
-    <state width="1877" height="417" key="GridCell.Tab.0.left" timestamp="1587125713388">
+    <state width="1877" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587221559311" />
+    <state width="1877" height="269" key="GridCell.Tab.0.left" timestamp="1587221559311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
-    <state width="1877" height="417" key="GridCell.Tab.0.right" timestamp="1587125713388">
+    <state width="1877" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587221559311" />
+    <state width="1877" height="269" key="GridCell.Tab.0.right" timestamp="1587221559311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
-    <state width="1877" height="417" key="GridCell.Tab.1.bottom" timestamp="1587125713388">
+    <state width="1877" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587221559311" />
+    <state width="1877" height="269" key="GridCell.Tab.1.bottom" timestamp="1587221559312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
-    <state width="1877" height="417" key="GridCell.Tab.1.center" timestamp="1587125713388">
+    <state width="1877" height="269" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587221559312" />
+    <state width="1877" height="269" key="GridCell.Tab.1.center" timestamp="1587221559311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
-    <state width="1877" height="417" key="GridCell.Tab.1.left" timestamp="1587125713388">
+    <state width="1877" height="269" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587221559311" />
+    <state width="1877" height="269" key="GridCell.Tab.1.left" timestamp="1587221559311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
-    <state width="1877" height="417" key="GridCell.Tab.1.right" timestamp="1587125713388">
+    <state width="1877" height="269" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587221559311" />
+    <state width="1877" height="269" key="GridCell.Tab.1.right" timestamp="1587221559312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587125713388" />
+    <state width="1877" height="269" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587221559312" />
     <state width="1877" height="305" key="GridCell.Tab.2.bottom" timestamp="1587045258013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,10 +218,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1586342542298" />
-    <state x="288" y="156" key="SettingsEditor" timestamp="1587123952270">
+    <state x="870" y="308" key="SettingsEditor" timestamp="1587195985995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="288" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587123952270" />
+    <state x="870" y="308" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587195985995" />
     <state x="813" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1587104356341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

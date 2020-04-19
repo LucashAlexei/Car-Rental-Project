@@ -1,12 +1,6 @@
 
-U
-java:S1191"5Use classes from the Java API instead of Sun classes.(‡œ£ÿÿÿÿÿ8›êÎÍ–.
-r	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷Àïÿÿÿÿÿ
-R
-java:S1128"2Remove this unused import 'com.logic.models.Cars'.( Ãéùÿÿÿÿ8¦§˜ğ–.
-L
-java:S1068",Remove this unused "employee" private field.(ô› şÿÿÿÿ8òµê½˜.
-L
-java:S1068",Remove this unused "customer" private field.(íŸŞÛşÿÿÿÿ8òµê½˜.
-C
-java:S1068"(Remove this unused "send" private field.(¦»ùç8òµê½˜.
+T
+java:S1128"2Remove this unused import 'com.logic.models.Cars'.( Ãéùÿÿÿÿ8¦§˜ğ–.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(‡œ£ÿÿÿÿÿ8›êÎÍ–.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷Àïÿÿÿÿÿ
