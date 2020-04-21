@@ -79,7 +79,7 @@ body {
     background-color: white;
     margin-left: 350px;
     width: 1228px;
-    height: 1050px;
+    height: 1020px;
     border: 1px solid lightgray;
     border-bottom: 2px solid red;
 }
@@ -125,7 +125,7 @@ h3{
     height: 400px;
     width: 1228px;
     border-top: 1px solid gray;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 /*table*/
 .table{

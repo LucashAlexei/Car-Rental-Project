@@ -68,24 +68,28 @@
     <h3 class = "rentNow">Rent now!</h3>
 
         <form action ="#" th:action="@{/orderForm}" th:object="${orderDTO}"  method="post">
-
-            <div class = "name"><p class="">Your Name:</p><input class="inputName" type="text" name="name" th:field="*{customerName}" placeholder="Full Name"/>
+            <div class = "name"><p class="">Your Name:</p>
+                <input class="inputName" type="text" name="name" th:field="*{customerName}" placeholder="Full Name"/>
                 <p class="nameError" th:if="${#fields.hasErrors('customerName')}" th:errors="*{customerName}"></p>
             </div>
 
-            <div class = "num"><p class="">Phone Number:</p><input class="inputPhone" type="text" name="description" th:field="*{phoneNumber}" placeholder="Phone Number"/>
+            <div class = "num"><p class="">Phone Number:</p>
+                <input class="inputPhone" type="text" name="description" th:field="*{phoneNumber}" placeholder="Phone Number"/>
                 <p class="phoneError" th:if="${#fields.hasErrors('phoneNumber')}" th:errors="*{phoneNumber}"></p>
             </div>
 
-            <div class = "card"><p class="">Card Number:</p><input class="inputCard" type="number" name="producer" th:field="*{cardNumber}" placeholder="Card Number"/>
+            <div class = "card"><p class="">Card Number:</p>
+                <input class="inputCard" type="number" name="producer" th:field="*{cardNumber}" placeholder="Card Number"/>
                 <p class="cardError" th:if="${#fields.hasErrors('cardNumber')}" th:errors="*{cardNumber}"></p>
             </div>
 
-            <div class = "time"><p class="">Rent Time(days):</p><input class="inputTime" type="number" name="rent" th:field="*{rendTime}" placeholder="Rent Time"/>
+            <div class = "time"><p class="">Rent Time(days):</p>
+                <input class="inputTime" type="number" name="rent" th:field="*{rendTime}" placeholder="Rent Time"/>
                 <p class="timeError" th:if="${#fields.hasErrors('rendTime')}" th:errors="*{rendTime}"></p>
             </div>
 
-            <div class = "date"><p class="">Start Date:</p><input class="inputDate" type="date" name="date" th:field="*{date}" placeholder="Date"/>
+            <div class = "date"><p class="">Start Date:</p>
+                <input class="inputDate" type="date" name="date" th:field="*{date}" placeholder="Date"/>
                 <p class="dateError" th:if="${#fields.hasErrors('date')}" th:errors="*{date}"></p>
             </div>
 
@@ -94,7 +98,6 @@
                     <option th:each=" i : ${locationList}" th:value="${i.getEmpl_id().intValue()}" th:text="${i.getLocation()}">
                 </select>
             </div>
-
             <button class="submit" name="submit" type="submit" >Rent</button>
         </form>
     </div>
